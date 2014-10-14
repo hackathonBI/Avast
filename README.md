@@ -17,7 +17,7 @@ In fact there is only three columns:
 
 |id|target|all_params|
 |---|---|---|
-|1|w|f|
+|1|1|{1,1,1,1,0,0,0,1,1,0,0,0,0,0,1,0,0,1,0,0,... many other rows here ...,0,0,0,0,0}|
 
 |id|target|all_params|
 |--|------|----------|
