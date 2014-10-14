@@ -15,19 +15,18 @@ In fact there is only three columns:
 3. **all_params** - an array of 7434 boolean parameters/indicators of various machine collected behaviour (first 4126) and machine state (rest 3311).
 
 
-id|target|all_params|1
---|------|--------------------------------------------------------------------------------|-
-1 |1	 |{1,1,1,1,0,0,0,1,1,0,0,0,0,0,1,0,0,1,0,0,... many other rows here ...,0,0,0,0,0}|
-2 |0	 |{1,1,1,1,0,1,0,1,1,0,0,1,0,0,0,0,0,1,0,0,... many other rows here ...,0,0,0,0,0}|
-3 |0	 |{1,1,1,1,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,... many other rows here ...,0,0,0,0,0}|
-4 |0	 |{1,1,1,1,0,0,0,1,1,1,0,1,0,0,1,0,0,0,0,0,... many other rows here ...,0,0,0,0,0}|
-5 |0	 |{1,1,1,1,0,1,0,1,1,1,0,0,0,0,1,0,0,1,0,0,... many other rows here ...,0,0,1,0,0}|
-6 |0	 |{1,1,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,... many other rows here ...,0,0,0,0,0}|
-7 |0	 |{1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,... many other rows here ...,0,0,0,0,0}|
-8 |1	 |{1,1,1,1,0,0,0,1,1,0,0,0,0,0,1,0,0,1,0,0,... many other rows here ...,0,0,0,0,0}|
-9 |0	 |{1,1,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,... many other rows here ...,0,0,0,0,0}|
 
-
+id|target|all_params
+--|------|----------
+1 |1	 |{1,1,1,1,0,0,0,1,1,0,0,0,0,0,1,0,0,1,0,0,... many other rows here ...,0,0,0,0,0}
+2 |0	 |{1,1,1,1,0,1,0,1,1,0,0,1,0,0,0,0,0,1,0,0,... many other rows here ...,0,0,0,0,0}
+3 |0	 |{1,1,1,1,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,... many other rows here ...,0,0,0,0,0}
+4 |0	 |{1,1,1,1,0,0,0,1,1,1,0,1,0,0,1,0,0,0,0,0,... many other rows here ...,0,0,0,0,0}
+5 |0	 |{1,1,1,1,0,1,0,1,1,1,0,0,0,0,1,0,0,1,0,0,... many other rows here ...,0,0,1,0,0}
+6 |0	 |{1,1,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,... many other rows here ...,0,0,0,0,0}
+7 |0	 |{1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,... many other rows here ...,0,0,0,0,0}
+8 |1	 |{1,1,1,1,0,0,0,1,1,0,0,0,0,0,1,0,0,1,0,0,... many other rows here ...,0,0,0,0,0}
+9 |0	 |{1,1,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,... many other rows here ...,0,0,0,0,0}
 
 We are presenting part of the normal dataset. The task is in fact much bigger, but we reduced the dataset to one region only. So we've helped you a bit from the start, as the behaviour, states and target correlation is in fact very different across the globe.
 
