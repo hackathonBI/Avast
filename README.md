@@ -10,9 +10,9 @@ Hello we're providing you data that may look really strange on the first sight.
 
 In fact there is only three columns:
 
-id - anonymized UID of the user
-target - whether the user had to deal with suspicious content or not
-all_params - an array of 7434 boolean parameters/indicators of various machine collected behaviour (first 4126) and machine state (rest 3311).
+1. id - anonymized UID of the user
+2. target - whether the user had to deal with suspicious content or not
+3. all_params - an array of 7434 boolean parameters/indicators of various machine collected behaviour (first 4126) and machine state (rest 3311).
 
 We are presenting part of the normal dataset. The task is in fact much bigger, but we reduced the dataset to one region only. So we've helped you a bit from the start, as the behaviour, states and target correlation is in fact very different across the globe.
 
